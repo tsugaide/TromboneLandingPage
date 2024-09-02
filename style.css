@@ -85,11 +85,10 @@ form input[type="submit"]:hover {
 }
 #pricing {
   display: flex;
-  align-items: center;
   margin-top: 50px;
+  flex-wrap: wrap;
   justify-content: center;
-  flex-direction: row;
-  padding: 0 150px;
+  align-items: center;
 }
 #pricing div {
   display: flex;
@@ -146,10 +145,6 @@ footer ul li a {
 }
 
 @media (max-width: 968px) {
-  #pricing {
-    display: flex;
-    flex-direction: column;
-  }
   #features {
     margin-left: 20px;
     margin-right: 20px;
